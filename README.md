@@ -21,19 +21,19 @@ O modelo é treinado com um conjunto de dados e avaliado usando a métrica RMSE 
 ## 4. Recomendações
 *Função obter_recomendacoes para recomendar produtos a um usuário específico com base em previsões feitas pelo modelo.*
 
-## Estrutura do Código
+# Estrutura do Código
 
-# Dados
+## Dados
 *produtos:* Contém informações sobre produtos.
 
 *usuarios:* Contém informações sobre usuários e seu histórico de compras.
 
-# Processamento
+## Processamento
 DataFrames são usados para manipulação e processamento dos dados.
 
 O histórico de compras é convertido em um formato adequado para treinamento do modelo.
 
-# Modelo
+## Modelo
 SVD é utilizado para gerar recomendações.
 
 O desempenho do modelo é avaliado utilizando a métrica RMSE.
